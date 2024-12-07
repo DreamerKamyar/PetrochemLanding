@@ -1172,7 +1172,52 @@ footer .contact-form button.filled-button:hover {
 
 .single-services {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(../images/Petrochemical.jpg); /* The least supported option. */
+    url(../../public/Petrochemical.jpg); /* The least supported option. */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 140px 0px;
+}
+.background-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../../public/Petrochemical.jpg); /* The least supported option. */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 140px 0px;
+}
+.background-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../../public/Lubricant.jpg); /* The least supported option. */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 140px 0px;
+}
+.background-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../../public/Polymer.jpg); /* The least supported option. */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 140px 0px;
+}
+.background-4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../../public/Cosmetics.jpg); /* The least supported option. */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 140px 0px;
+}
+.background-5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../../public/Labratory.jpg); /* The least supported option. */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
