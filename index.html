@@ -540,28 +540,27 @@ https://templatemo.com/tm-545-finance-business
       </div>
     </div>
     <script>
-      console.log("test");
       const section = document.getElementById("Service-Section");
       document.getElementById("tab-1").addEventListener("click", function (e) {
-        section.style.backgroundImage =
-          "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) ,url(/assets/images/Petrochemical.jpg)";
+        section.removeAttribute("class");
+        section.classList.add("background-1");
       });
       document.getElementById("tab-2").addEventListener("click", function (e) {
-        section.style.backgroundImage =
-          "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) ,url(/assets/images/Lubricant.jpg)";
+        section.removeAttribute("class");
+        section.classList.add("background-2");
       });
       document.getElementById("tab-3").addEventListener("click", function (e) {
-        section.style.backgroundImage =
-          "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) ,url(/assets/images/Polymer.jpg)";
+        section.removeAttribute("class");
+        section.classList.add("background-3");
       });
 
       document.getElementById("tab-4").addEventListener("click", function (e) {
-        section.style.backgroundImage =
-          "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) ,url(/assets/images/Cosmetics.jpg)";
+        section.removeAttribute("class");
+        section.classList.add("background-4");
       });
       document.getElementById("tab-5").addEventListener("click", function (e) {
-        section.style.backgroundImage =
-          "linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) ,url(/assets/images/Labratory.jpg)";
+        section.removeAttribute("class");
+        section.classList.add("background-5");
       });
     </script>
     <!-- Bootstrap core JavaScript -->
