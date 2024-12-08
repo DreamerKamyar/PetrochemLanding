@@ -16,7 +16,7 @@ body {
 p {
   margin-bottom: 0px;
   font-size: 14px;
-  color: #666666;
+  color: #fff;
   line-height: 30px;
 }
 a {
@@ -38,7 +38,7 @@ h6 {
 }
 
 a.filled-button {
-  background-color: #f95700ff;
+  background-color: #f95700;
   color: #fff;
   font-size: 13px;
   text-transform: uppercase;
@@ -80,7 +80,7 @@ a.border-button:hover {
 .section-heading h2 {
   font-size: 36px;
   font-weight: 600;
-  color: #1e1e1e;
+  color: #fff;
 }
 
 .section-heading em {
@@ -93,7 +93,7 @@ a.border-button:hover {
   margin-top: 15px;
   text-transform: uppercase;
   font-size: 15px;
-  color: #666;
+  color: #b3b3b3;
   letter-spacing: 1px;
 }
 
@@ -695,11 +695,13 @@ ul.slick-dots {
 .more-info {
   position: relative;
   padding: 4rem;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../images/MoleculePattern.jpg);
-  background-size: 459px 252px;
+  background: url(../../public/AboutBackground.jpg);
   background-position: center;
-  background-repeat: repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.more-info h2 {
+  color: white;
 }
 .background-blur {
   width: 100%;
@@ -707,8 +709,8 @@ ul.slick-dots {
   position: absolute;
   left: 0;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(2px);
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
 }
 .more-info .left-image img {
   width: 100%;
@@ -716,7 +718,7 @@ ul.slick-dots {
 }
 
 .more-info .more-info-content {
-  background-color: #f7f7f7;
+  backdrop-filter: blur(10px);
 }
 
 .about-info .more-info-content {
@@ -735,7 +737,7 @@ ul.slick-dots {
 .more-info .right-content span {
   text-transform: uppercase;
   font-size: 15px;
-  color: #666;
+  color: #fff;
   letter-spacing: 1px;
   margin-bottom: 10px;
   display: block;
@@ -749,6 +751,7 @@ ul.slick-dots {
 
 .more-info .right-content em {
   font-style: normal;
+  font-weight: bold;
   color: #f95700ff;
 }
 
@@ -779,7 +782,7 @@ ul.slick-dots {
 .testimonial-item h4 {
   font-size: 19px;
   font-weight: 700;
-  color: #1e1e1e;
+  color: #fff;
   letter-spacing: 0.5px;
   margin-bottom: 0px;
 }
@@ -850,7 +853,7 @@ ul.slick-dots {
   min-height: 120px;
   display: inline-block;
   padding: 15px;
-  color: #6a6a6a;
+  color: #fff;
   font-size: 13px;
   text-transform: none;
   box-shadow: none;
@@ -1171,7 +1174,7 @@ footer .contact-form button.filled-button:hover {
 /* Single Service */
 
 .single-services {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../../public/Petrochemical.jpg); /* The least supported option. */
   background-position: center center;
   background-repeat: no-repeat;
@@ -1263,7 +1266,7 @@ footer .contact-form button.filled-button:hover {
   color: #fff;
 }
 #tabs ul .ui-tabs-active span {
-  color: #1e1e1e;
+  color: #fff;
 }
 .tabs-content {
   margin-left: 30px;
@@ -1281,10 +1284,11 @@ footer .contact-form button.filled-button:hover {
   letter-spacing: 0.25px;
   margin-bottom: 15px;
   margin-top: 30px;
+  color: #fff;
 }
 .tabs-content p {
   font-size: 14px;
-  color: #7a7a7a;
+  color: #fff;
   margin-bottom: 0px;
 }
 
