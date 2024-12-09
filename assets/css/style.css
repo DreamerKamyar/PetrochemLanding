@@ -388,15 +388,22 @@ header .navbar {
 }
 
 .Modern-Slider .item-1 .img-fill {
-  background-image: url(../images/slide_01.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(/public/Hero-1.jpg);
+  background-size: cover;
 }
 
 .Modern-Slider .item-2 .img-fill {
-  background-image: url(../images/slide_02.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(/public/Hero-2.jpg);
+  background-size: cover;
+  background-position: bottom;
 }
 
 .Modern-Slider .item-3 .img-fill {
-  background-image: url(../images/slide_03.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(/public/Hero-3.jpg);
+  background-size: cover;
 }
 
 .Modern-Slider .NextArrow {
@@ -694,7 +701,7 @@ ul.slick-dots {
 
 .more-info {
   position: relative;
-  padding: 4rem;
+  padding: 140px;
   background: url(../../public/AboutBackground.jpg);
   background-position: center;
   background-size: cover;
@@ -1181,7 +1188,9 @@ footer .contact-form button.filled-button:hover {
   background-size: cover;
   background-attachment: fixed;
   padding: 140px 0px;
+  position: relative;
 }
+
 .background-1 {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url(../../public/Petrochemical.jpg); /* The least supported option. */
@@ -1437,4 +1446,35 @@ footer .contact-form button.filled-button:hover {
     color: #f95700ff !important;
     border-bottom: none !important;
   }
+}
+@media only screen and (max-width: 600px) {
+  .Modern-Slider .item-1 .img-fill {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url(/public/Hero-1.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .Modern-Slider .item-2 .img-fill {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url(/public/Hero-2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .Modern-Slider .item-3 .img-fill {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url(/public/Hero-3.jpg);
+    background-size: cover;
+  }
+  .more-info {
+    padding: 24px;
+  }
+  .more-info .right-content p {
+    margin-bottom: 0;
+  }
+}
+footer .row {
+  display: flex;
+  justify-content: space-between;
 }
